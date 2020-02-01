@@ -59,7 +59,7 @@
 		<div class="right-item-bottom">
 			<div class="video-home block items">
 				<h5>FaceBook</h5>
-				<div class="fb-page" data-href="https://www.facebook.com/vivadecor.vn/" data-tabs="timeline" data-width="300" data-height="230" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/vivadecor.vn/" class="fb-xfbml-parse-ignore"><a rel="nofollow" title="Nội thất Vivadecor" href="https://www.facebook.com/vivadecor.vn/">Nội thất Vivadecor</a></blockquote></div>
+				<div class="fb-page" data-href="https://www.facebook.com/thietkegemihome/" data-tabs="timeline" data-width="300" data-height="230" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/thietkegemihome/" class="fb-xfbml-parse-ignore"><a rel="nofollow" title="Thiết Kế Nội Thất Và Kiến Trúc Gemihome" href="https://www.facebook.com/thietkegemihome/"></a></blockquote></div>
 			</div>
 			<div class="cam-nang-item block items">
 				<h5>Cẩm nang tin tức</h5>

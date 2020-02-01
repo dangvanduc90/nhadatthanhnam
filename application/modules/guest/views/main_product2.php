@@ -496,29 +496,8 @@
        }
 
 </script>
-<div class="mobile-share-buttons">
-	<div class="facebook" href="javascript:void(0);" onclick="window.open(&quot;https://www.facebook.com/sharer.php?u=<?= current_url(); ?>&quot;,
-		&quot;displayWindow&quot;, &quot;width=640,height=480,left=350,top=170,status=no,toolbar=no,menubar=no&quot;)">
-		<span class="icon"></span>
-	</div>
-	<div class="twitter" href="javascript:void(0);" onclick="window.open(&quot;https://twitter.com/share?url=<?= current_url(); ?>&quot;,
-		&quot;displayWindow&quot;, &quot;width=640,height=480,left=350,top=170,status=no,toolbar=no,menubar=no&quot;)">
-		<span class="icon"></span>
-	</div>
-	<div class="google" href="javascript:void(0);" onclick="window.open(&quot;https://plus.google.com/share?url=<?= current_url(); ?>&quot;,
-		&quot;displayWindow&quot;, &quot;width=640,height=480,left=350,top=170,status=no,toolbar=no,menubar=no&quot;)">
-		<span class="icon"></span>
-	</div>
-	<div class="linkedin" href="javascript:void(0);" onclick="window.open(&quot;http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= current_url(); ?>&quot;,
-		&quot;displayWindow&quot;, &quot;width=640,height=480,left=350,top=170,status=no,toolbar=no,menubar=no&quot;)">
-		<span class="icon"></span>
-	</div>
-	<div class="close-mobile-block">
-		<span class="icon"></span>
-	</div>
-</div>
 
-	<!-- Đặt thẻ này vào phần đầu hoặc ngay trước thẻ đóng phần nội dung của bạn. -->
+<!-- Đặt thẻ này vào phần đầu hoặc ngay trước thẻ đóng phần nội dung của bạn. -->
 <script src="https://apis.google.com/js/platform.js" async defer>
   {lang: 'vi'}
 </script>

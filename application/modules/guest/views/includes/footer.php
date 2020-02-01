@@ -74,7 +74,7 @@
 
 						<p class="text-center">
 
-							<span>NỘI THẤT VIVADECOR là một thương hiệu trực thuộc Công ty CP Tư vấn và đầu tư xây dựng số 36 (CIC36).</span>
+						<span>Thiết kế Gemihome là một thương hiệu thuộc công ty cổ phần gemi việt nam</span></span>
 							<!-- <span>Giấy chứng nhận Đăng ký Kinh doanh số 0106547466 do Sở Kế hoạch và Đầu tư Tp.Hà Nội cấp.</span> -->
 							<!-- <a href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=6519" rel="nofollow" target="_blank"><img alt="" src="<?= base_url() ?>resources/ui_images/da-dang-ky-bo-cong-thuong.png" style="float:right; height:57px; width:150px" /></a> -->
 
