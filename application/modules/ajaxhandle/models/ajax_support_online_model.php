@@ -56,8 +56,24 @@
 				'ProductsID' => $productid
 			);
 			$this -> db -> insert('subscribe',$data);
-			if($this -> db -> affected_rows() > 0)
+			if($this -> db -> affected_rows() > 0) {
+
+                // Send email with new email address and its activation link
+                $type = 'register-info';
+                $dataEmail = [];
+                $dataEmail['site_name'] = base_url();
+                $dataEmail['username'] = $username;
+                $dataEmail['email'] = $email;
+                $this->load->library('email');
+                $this->email->from($this->config->item('webmaster_email', 'tank_auth'), $this->config->item('website_name', 'tank_auth'));
+                $this->email->to($email);
+                $this->email->subject('Gửi yêu cầu thiết kế trên ' . base_url() . ' thành công');
+                $this->email->message($this->load->view('email/'.$type.'-html', $dataEmail, TRUE));
+                $this->email->set_alt_message($this->load->view('email/'.$type.'-txt', $dataEmail, TRUE));
+				$this->email->send();
 				return true;
+				
+			}
 			return false;
 
 		}
