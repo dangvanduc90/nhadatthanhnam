@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+			<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+				<sitemap>
+					<loc>https://gemihome.com/sitemap-category.xml</loc>
+					<lastmod>2020-01-12T21:03:19+07:00</lastmod>
+				</sitemap>
+				<sitemap>
+					<loc>https://gemihome.com/sitemap-product.xml</loc>
+					<lastmod>2020-01-12T21:03:19+07:00</lastmod>
+				</sitemap>
+				<sitemap>
+					<loc>https://gemihome.com/sitemap-news.xml</loc>
+					<lastmod>2020-01-12T21:03:19+07:00</lastmod>
+				</sitemap>
+				<sitemap>
+					<loc>https://gemihome.com/sitemap-image.xml</loc>
+					<lastmod>2020-01-12T21:03:19+07:00</lastmod>
+				</sitemap>
+			</sitemapindex>
