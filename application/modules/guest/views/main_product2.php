@@ -445,8 +445,8 @@
 
 					<div class="quick-view-item" id="facebook">
 
-						<div class="fb-comments" data-href="<?= current_url(); ?>" data-numposts="5" data-width="100%"></div>
-
+						<!-- <div class="fb-comments" data-href="<?= current_url(); ?>" data-numposts="5" data-width="100%"></div> -->
+						<div class="fb-comments" data-href="https://www.facebook.com/thietkegemihome" data-width="100%" data-numposts="5"></div>
 					</div>
 
 					<div class="quick-view-item" id="google-comment" style="display: none;">
