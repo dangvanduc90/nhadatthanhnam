@@ -119,6 +119,12 @@
                         <?= form_error('Name') ?>
                     </div>
                     <div class="form-group">
+                        <label for="Content">Nội dung</label>
+                        <textarea type="text" class="form-control" id="Content" name="Content" placeholder="Bạn muốn thiết kế nhà kích thước như nào?"
+                               ></textarea>
+                        <?= form_error('Content') ?>
+                    </div>
+                    <div class="form-group">
                         <label for="name">Số điện thoại</label>
                         <input type="text" class="form-control" id="phone_number" name="Phone" placeholder="0989307292"
                                maxlength="11" minlength="9" required
