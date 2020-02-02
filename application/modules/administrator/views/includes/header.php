@@ -3,7 +3,7 @@
 <head>
 <!-- CSS start here -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>VIVADECOR CMS</title>
+<title>GEMIHOME CMS</title>
 <link rel="shortcut icon" href="<?= base_url()?>resources/ui_images/favi.png" type="image/x-icon">
 <script src="<?= base_url()?>resources/js/jqueries/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="<?= base_url()?>resources/js/ajaxfileupload.js"></script>

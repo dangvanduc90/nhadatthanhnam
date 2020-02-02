@@ -7,7 +7,7 @@
 | These details are used in emails sent by authentication library.
 |--------------------------------------------------------------------------
 */
-$config['website_name'] = 'Vivadecor';
+$config['website_name'] = 'Gemihome';
 $config['webmaster_email'] = base_url();
 
 /*

@@ -27,15 +27,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<span class="icon"></span> Địa chỉ VP
 							</a>
 							<ul>
-								<span class="icon"></span> Nội thất Vivadecor:
-								<li><a>110 Thái Thịnh, Đống Đa, Hà Nội</a>
+								<span class="icon"></span> Nội thất <?= $this->config->item('website_name', 'tank_auth') ?>:
+								<li><a>P.319 - Imperia Sky Garden - 423 Minh Khai - Hà Nội</a>
 								</li>
 								<li><a rel="nofollow" href="tel:01203435555" title="01203435555">Hotline hỗ trợ: </a><span><?php if($hotline) { foreach ($hotline as $k => $h) { ?>
 									<?php if ($k != 0) {
 										echo " | ";
 									}echo $h['Phone']; } echo "</a>";} ?></span>
 								</li>
-								<li><a rel="nofollow" title="Bản đồ đường đi" target="_blank" href="https://goo.gl/maps/xvWThgeY3P72">Xem sơ đồ đường đi</a>
+								<li><a rel="nofollow" title="Bản đồ đường đi" target="_blank" href="https://goo.gl/maps/iRHasz42rG9JSxDQ6">Xem sơ đồ đường đi</a>
 								</li>
 							</ul>
 						</li>

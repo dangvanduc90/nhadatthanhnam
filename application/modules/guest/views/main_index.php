@@ -3,7 +3,7 @@
 <html lang="vi">
 <?php $this -> load -> view('includes/header'); ?>
 <link rel="canonical" href="<?= base_url(); ?>" /><!--Canonical Seo trang chủ-->
-<link rel="amphtml"  href="https://amp.vivadecor.com.vn/" />
+<!-- <link rel="amphtml"  href="https://amp.vivadecor.com.vn/" /> -->
 <!--Định danh cho MXH-->
 <meta property="og:site_name" content="<?php if($SEOTitle !== false) echo $SEOTitle;?>">
 <meta property="og:url" content="<?= base_url(); ?>">
@@ -30,8 +30,8 @@
         "url": "<?= base_url(); ?>",
         "potentialAction": [{
             "@type": "SearchAction",
-            "target": "<?= base_url(); ?>tim-kiem?t={vivadecor}",
-            "query-input": "required name={vivadecor}"
+            "target": "<?= base_url(); ?>tim-kiem?t={gemihome}",
+            "query-input": "required name={gemihome}"
         }]
     }
 </script>

@@ -946,7 +946,7 @@ class Guest extends CMS_BaseController
             $this->load->model('ajaxhandle/ajax_support_online_model');
             $result = $this->ajax_support_online_model->insertSubscribe();
             if ($result) {
-                $data['message'] = 'Cám ơn bạn đã gửi thông tin đăng ký, nhân viên tư vấn của vivadecor sẽ liên hệ với bạn ngay.';
+                $data['message'] = 'Cám ơn bạn đã gửi thông tin đăng ký, nhân viên tư vấn của '.$this->config->item('website_name', 'tank_auth').' sẽ liên hệ với bạn ngay.';
             } else
                 $data['message'] = 'Gửi thông tin liên hệ thất bại';
             $this->load->view('cam-on', $data);
@@ -978,7 +978,7 @@ class Guest extends CMS_BaseController
                 $this->email->message($this->load->view('email/'.$type.'-html', $dataEmail, TRUE));
                 $this->email->set_alt_message($this->load->view('email/'.$type.'-txt', $dataEmail, TRUE));
                 $this->email->send();
-                $data['message'] = $result ? 'Cám ơn bạn đã gửi thông tin đăng ký, nhân viên tư vấn của vivadecor sẽ liên hệ với bạn ngay.' : 'Gửi thông tin liên hệ thất bại';
+                $data['message'] = $result ? 'Cám ơn bạn đã gửi thông tin đăng ký, nhân viên tư vấn của '.$this->config->item('website_name', 'tank_auth').' sẽ liên hệ với bạn ngay.' : 'Gửi thông tin liên hệ thất bại';
             }
         }
         $this->load->view('register-info', $data);
