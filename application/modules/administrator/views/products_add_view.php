@@ -599,7 +599,7 @@
                         </tr>
 
                         <tr>
-                            <td class="key">Tùy chọn</td>
+                            <!-- <td class="key">Tùy chọn</td>
                             <td>
                                 <input id="prdIsNew" type="checkbox" name="prdIsNew" >
                                 <label for="prdIsNew">Mới cập nhật</label>
@@ -608,7 +608,7 @@
                                 <input id="prdIsHot" type="checkbox" name="prdIsHot" >
                                 <label for="prdIsHot">Hoàn thành</label>
                             </td>
-                            <!-- <td>
+                            <td>
                                 <input id="prdIsSellers" type="checkbox" name="prdIsSellers" >
                                 <label for="prdIsSellers">Bán chạy</label>
                             </td>

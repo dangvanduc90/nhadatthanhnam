@@ -607,7 +607,7 @@
                         <td style="height: 5px;"></td>
                     </tr>
                     <tr>
-                        <td class="key">Tùy chọn</td>
+                        <!-- <td class="key">Tùy chọn</td>
                         <td>
                             <input id="prdIsNew" type="checkbox" <?php if ($product['IsNew'] == 1) echo "checked"; ?>
                                    name="prdIsNew">
@@ -618,7 +618,7 @@
                                    name="prdIsHot">
                             <label for="prdIsHot">Hoàn thành</label>
                         </td>
-                        <!-- <td>
+                        <td>
                                 <input id="prdIsSellers" type="checkbox" <?php if ($product['IsSellers'] == 1) echo "checked"; ?> name="prdIsSellers" >
                                 <label for="prdIsSellers">Bán chạy</label>
                             </td>
