@@ -65,11 +65,12 @@
                 $dataEmail['username'] = $username;
                 $dataEmail['email'] = $email;
                 $this->load->library('email');
-                $this->email->from($this->config->item('webmaster_email', 'tank_auth'), $this->config->item('website_name', 'tank_auth'));
+                $this->email->from(base_url(), $this->config->item('website_name', 'tank_auth'));
                 $this->email->to($email);
                 $this->email->subject('Gửi yêu cầu thiết kế trên ' . base_url() . ' thành công');
                 $this->email->message($this->load->view('email/'.$type.'-html', $dataEmail, TRUE));
                 $this->email->set_alt_message($this->load->view('email/'.$type.'-txt', $dataEmail, TRUE));
+                $this->email->cc($this->config->item('webmaster_email', 'tank_auth'));
 				$this->email->send();
 				return true;
 				

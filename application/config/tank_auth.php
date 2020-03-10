@@ -8,7 +8,7 @@
 |--------------------------------------------------------------------------
 */
 $config['website_name'] = 'Gemihome';
-$config['webmaster_email'] = base_url();
+$config['webmaster_email'] = 'thietkegemihome@gmail.com';
 
 /*
 |--------------------------------------------------------------------------
