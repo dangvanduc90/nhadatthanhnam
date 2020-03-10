@@ -78,10 +78,15 @@ class Administrator extends CMS_AdminController
 
         if ($flag) {
             $this->load->model('products_model');
+            $this->load->model('section_model');
+            $this->load->model('sections_products_pivot_model');
             $currentpage = $this->input->get('page');
             $key = $this->input->get('key');
             $cate = $this->input->get('cate');
             $brand = $this->input->get('brand');
+
+            $sections_list = $this->section_model->Section_get_all(0, 999, 'Publish = 1');
+            $data['sections'] = $sections_list->result_array();
 
             $whereClause = " 1=1 ";
             if ($key) {
@@ -111,6 +116,10 @@ class Administrator extends CMS_AdminController
 
                 $productlist = $this->products_model->Products_get_all($start, $show, $whereClause);
                 $data['products_list'] = $productlist->result_array();
+
+                foreach ($data['products_list'] as $key => $product) {
+                    $data['products_list'][$key]['sections'] = $this->sections_products_pivot_model->list_by_product_id($product['ProductsID']);
+                }
             }
 
             if (count($data['products_list']) > 0)

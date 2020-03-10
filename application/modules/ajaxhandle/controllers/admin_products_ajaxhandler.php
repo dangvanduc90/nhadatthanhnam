@@ -91,6 +91,12 @@
           $result ? $a = '1' : $a = '0';
           echo json_encode($a);
         }
+        function UpdateSectionPivot() {
+            $this -> load -> model('ajax_products_section_pivot');
+            $result = $this -> ajax_products_section_pivot -> Ajax_Update_Product_Section_Pivot();
+            $result ? $a = '1' : $a = '0';
+            echo json_encode($a);
+        }
 
         function updateSellPrice(){
         	$result = $this -> ajax_products_model -> Ajax_Update_Product_SellPrice();
